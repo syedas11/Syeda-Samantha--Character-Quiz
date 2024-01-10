@@ -1,0 +1,436 @@
+body{
+    background-color: #82ED7E;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.firstpageheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 3px #49CA45;
+    font-size: 50px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 3px #49CA45;
+    font-size: 35px;
+}
+
+.girlthinkfoodimg{
+    display: flex;
+    margin: 0px auto 0px auto;
+    width: 25%;
+}
+
+.inputs{
+    text-align: left;
+    margin-left: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.q1{
+    background-color: #D8FFD7;
+    color: #0A8606;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.q1button{
+    background-color: #EFFEEF;
+    color: #0A8606;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.q2{
+    background-color: #D8FFD7;
+    color: #0A8606;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.q2button{
+    background-color: #EFFEEF;
+    color: #0A8606;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.begin{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #1EA01A;
+    color: #A7FEA4;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 0.5px 2px 8px #E6FFE6;
+    border: 2px dotted #E6FFE6;
+    box-shadow: 0.2px 3px 8px #22B11E;
+}
+
+.begin:hover{
+    background-color: #A7FEA4;
+    color: #1EA01A;
+    text-shadow: 0.5px 2px 8px #22B11E;
+    box-shadow: 0.2px 3px 8px #E6FFE6;
+}
+
+.outputandbegin{
+    text-align: center;
+}
+
+.questionOutputs{
+    padding: 10px 20px 10px 20px;
+    margin: 0px 300px 0px 0px;
+    font-size: 30px;
+    border: 2px dotted #E6FFE6;
+}
+
+.questionOutputs:hover{
+    color: #1EA01A;
+}
+
+.qanda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstpage{
+    
+}
+
+.secondpage{
+    margin: 20px 300px 0px 300px;
+}
+
+.firstquestionheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    color: #49CA45;
+    padding: 10px 30px 10px 30px;
+}
+
+.activitiesimgs{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.adventurebutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.volunteerbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.disneybutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.shoppingbutton{
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.adventureimg{
+    width: 257px;
+    height: 200px;
+}
+
+.volunteerimg{
+    width: 300px;
+    height: 200px;
+}
+
+.disneyimg{
+    width: 300px;
+    height: 200px;
+}
+
+.shoppingimg{
+    width: 300px;
+    height: 200px;
+}
+
+.thirdpage{
+    margin: 20px 300px 0px 300px;
+}
+
+.secondquestionheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    color: #49CA45;
+    padding: 10px 30px 10px 30px;
+}
+
+.friendterms{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.outgoingbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.childlikebutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.stubbornbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.angelbutton{
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.outgoingimg{
+    width: 250px;
+    height: 200px;
+}
+
+.childlikeimg{
+    width: 300px;
+    height: 200px;
+}
+
+.stubbornimg{
+    width: 300px;
+    height: 200px;
+}
+
+.angelimg{
+    width: 250px;
+    height: 200px;
+}
+
+.fourthpage{
+    margin: 20px 300px 0px 300px;
+}
+
+.thirdquestionheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    color: #49CA45;
+    padding: 10px 30px 10px 30px;
+}
+
+.colors{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.vibrantbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.traditionalbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pastelbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nudesbutton{
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.vibrantimg{
+    width: 270px;
+    height: 200px;
+}
+
+.traditionalimg{
+    width: 300px;
+    height: 200px;
+}
+
+.pastelimg{
+    width: 300px;
+    height: 200px;
+}
+
+.nudesimg{
+    width: 270px;
+    height: 200px;
+}
+
+.fifthpage{
+    margin: 20px 300px 0px 300px;
+}
+
+.fourthquestionheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    color: #49CA45;
+    padding: 10px 30px 10px 30px;
+}
+
+.taste{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sweetbutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.savorybutton{
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.spicybutton{
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sweetimg{
+    width: 370px;
+    height: 400px;
+}
+
+.savoryimg{
+    width: 400px;
+    height: 400px;
+}
+
+.spicyimg{
+    width: 400px;
+    height: 400px;
+}
+
+.lastq{
+    margin-top: 20px;
+}
+
+.fuchkaheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 3px #49CA45;
+    font-size: 35px;
+}
+
+.kinderjoyheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 3px #49CA45;
+    font-size: 35px;
+}
+
+.dinonuggiesheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 3px #49CA45;
+    font-size: 35px;
+}
+
+.mintchocoheading{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 3px #49CA45;
+    font-size: 35px;
+}
+
+.fuchkaimg{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    margin: 0px auto 0px auto;
+}
+
+.kinderjoyimg{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    margin: 0px auto 0px auto;
+}
+
+.dinonuggieimg{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    margin: 0px auto 0px auto;
+}
+
+.mintchocoimg{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    margin: 0px auto 0px auto;
+}
+
+.resultspage{
+    font-size: 35px;
+}
+
+p{
+    margin-top: 10px;
+    margin: 100px;
+    text-align: center;
+}
+
+.reset{
+    background-color: #EFFEEF;
+    color: #0A8606;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    margin: 20px auto 0px auto;
+}
