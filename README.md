@@ -1,1 +1,0 @@
-# Syeda-Samantha--Character-Quiz
